@@ -4,15 +4,24 @@ body {
     margin: 0;
     padding: 0;
 
-
 }
 
 /* Cabeçalho */
 header {
-    background-color: chartreuse;
-
+    background-color: rgb(37, 17, 110);
     text-align: center;
     padding: 20px;
+}
+
+.titulo {
+    margin: 0;
+    color: white;
+}
+
+.subtitulo {
+    margin: 0;
+    color: white;
+    font-size: 1.2em;
 }
 
 .slogan {
@@ -35,7 +44,7 @@ header {
 
 /* Menu de navegação */
 nav {
-    background-color: red;
+    background-color: rgb(117, 106, 106);
     text-align: center;
     padding: 10px;
 }
@@ -80,8 +89,8 @@ article img{
 
 /* Rodapé */
 footer {
-    background-color:darkgoldenrod;
-    color: peru;
+    background-color: rgb(117, 106, 106);
+    color: rgb(252, 251, 249);
     text-align: center;
     padding: 10px;
     font-size: 0.9em;
