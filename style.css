@@ -7,8 +7,8 @@ body {
 }
 
 /* Cabeçalho */
-header {
-    background-color: rgb(37, 17, 110);
+#topo {
+    background-color: rgb(50, 50, 51);
     text-align: center;
     padding: 20px;
 }
@@ -43,24 +43,25 @@ header {
 }
 
 /* Menu de navegação */
-nav {
-    background-color: rgb(117, 106, 106);
+#menu {
+    background-color: rgb(163, 15, 15);
     text-align: center;
     padding: 10px;
 }
 
-nav a {
+#menu a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
 }
 
-nav a:hover {
+#menu a:hover {
+    background-color: rgb(50, 50, 51);
 
 }
 
 /* Conteúdo principal */
-main {
+#conteudo-principal {
     max-width: 800px;
     margin: 20px auto;
     padding: 15px;
@@ -84,8 +85,8 @@ main {
 
 .conteudo-noticia img {
     padding-right: 20px;
-    width: 50%;
-    height: 150px;
+    width: 40%;
+    height: 50%;
     border-radius: 6px;
     flex-shrink: 0;
 }
@@ -97,24 +98,11 @@ main {
 
 
 
-article h2 {
-    color: purple; 
-}
-
-
-
-
-article img{                            
-    max-width: 150px;
-}
-
-
-
 
 
 /* Rodapé */
-footer {
-    background-color: rgb(117, 106, 106);
+#rodape {
+    background-color: rgb(50, 50, 51);
     color: rgb(252, 251, 249);
     text-align: center;
     padding: 10px;
